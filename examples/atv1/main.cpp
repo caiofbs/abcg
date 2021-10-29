@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
     window->setOpenGLSettings(
         {.samples = 2, .vsync = true, .preserveWebGLDrawingBuffer = true});
     window->setWindowSettings(
-        {.width = 600, .height = 600, .title = "Colored Triangles"});
+        {.width = 600, .height = 600, .title = "Atv 1 - Snake Game"});
 
     // Run application
     app.run(std::move(window));
